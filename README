@@ -1,0 +1,25 @@
+VERONICA HATALA - ADVENTURE GAME
+DOCUMENTATION
+
+Adventure Game is a text-based game in which the player is presented with numbered options, and the option selected is used to progress.
+
+Abstract Data Types:
+The Bag ADT is used as the inventory, using the ResizeableArrayBag class and interface. The Bag will hold Item Objects. The presence of Item Objects within the Bag 
+determines whether the user can access certain parts of the game. Some parts are only accessible if the Bag contains a certain Item.
+
+How to start:
+Run Program. 
+Directions are in the program. Options are numbered. Input 1, 2, 3, 4, or 5 as shown.
+Inventory can be accessed in any general room/furniture menu by entering ‘I’ as input.
+
+Order of inputs for the fastest way to complete:
+1(Leave Room)
+2(Library)
+2(Right Bookshelf)
+3(Resurrection)
+5(Leave Right Bookshelf)
+3(Armoire)
+2(Go down the staircase)
+
+Known Bugs:
+At some menus, entering nothing into the text prompt gives an java.lang.StringIndexOutOfBoundsException.
